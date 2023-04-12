@@ -30,6 +30,7 @@
         data-bs-theme="dark"
       >
         <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Alessandra Wong</span>
           <button
             class="navbar-toggler"
             type="button"
@@ -65,11 +66,13 @@
         </div>
       </nav>
     </header>
-    <div class="mt-5 body-content">
+    <div class="mt-5 ">
       {% block content %} {% endblock %}
       <hr />
       <footer>
-        <p>&copy; 2023</p>
+        <div class="container-fluid fixed-bottom pr-1 bg-dark text-light text-end" >
+            <span>&copy; 2023 </span>
+        </div>
       </footer>
     </div>
   </body>

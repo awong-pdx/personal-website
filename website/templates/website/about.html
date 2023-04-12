@@ -1,7 +1,26 @@
 {% extends "website/layout.html" %}
 {% block title %}
-About us
+About Me
 {% endblock %}
 {% block content %}
-<p>About page for the Visual Studio Code Django tutorial.</p>
+<div class="container-fluid bg-danger-subtle mt-3">
+    <h1 class="p-2">About</h1>
+</div>
+    {% load static %}
+    <img
+      src="{% static 'website/profile.jpg' %}"
+      class="rounded mx-auto my-2 d-block"
+      alt="A headshot of Alessandra Wong"
+      width="200"
+      height="200"
+    />
+    <p>
+        My name is Alessandra Wong and I use she/her pronouns. I'm currently a post-bac undergrad student looking to get my second bachelor's in CS. 
+    </p>
+    <p>
+        My previous experience with web development is mostly limited to a web-based chat app I worked on for my Elements of Software Engineering class. I am currently working with my Capstone team on a project for PSU’s Transportation Research and Education Center, where we are working on creating a user interface for the BikePed Portal, a database for non-motorized transportation data collection that is used by local and national transportation organizations. 
+    </p>
+    <p>
+        I previously was a research assistant in the Human Factors and Applied Cognition Research Labs at George Mason University, which focuses on how people interact with computers and other forms of technology. Going forward in my CS career, I would like to be involved with designing or working on applications focused on the user experience.
+    </p>
 {% endblock %}
