@@ -4,10 +4,107 @@ Projects
 {% endblock %}
 {% block content %}
 <div class="container-fluid bg-danger-subtle mt-3">
-    <h1 class="p-2">Projects</h1>
+  <h1 class="p-2">Projects</h1>
 </div>
-<div class="mx-2">
-  <h2>Project 1: Instant Messaging App</h2>
+<div class="d-flex justify-content-center">
+  <div class="mx-5 w-75">
+    <div class="row row-cols-2 row-cols-xl-4 my-3">
+      <div class="col d-flex justify-content-center my-2">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#proj-1" class="">
+          {% load static %}
+          <img src="{% static 'website/chat_app_thumbnail.jpg' %}"
+            alt="A screenshot of the Chat App Project Github readme" class="rounded d-block border border-dark"
+            width="200px" height="200px">
+        </a>
+        <div class="modal fade" tabindex="-1" id="proj-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header bg-danger-subtle">
+                <h5 class="modal-title">Project 1: Instant Messaging App</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  My first hands-on introduction to the development process was a web-based messaging app for PSU's
+                  Elements
+                  of Software Engineering class in 2021. The goal of the project was to have a working browser-based
+                  chat
+                  system which could facilitate communication between at least two logged-in users, implemented using
+                  the
+                  MERN
+                  stack (MongoDB, Express, React, and Node). By the end of the quarter, I had a pretty rough working
+                  example
+                  of the app, with the ability to demonstrate messaging across two instances. However, along with many
+                  other
+                  features, the user functionality was never implemented, despite there being a user creation form.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <small>
+                  Github repo:
+                  <a
+                    href="https://github.com/awong-pdx/CS300/tree/main/instant-messaging-app">https://github.com/awong-pdx/CS300/tree/main/instant-messaging-app</a>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center my-2">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#proj-2" class="">
+          {% load static %}
+          <img src="{% static 'website/django_girls_thumbnail.jpg' %}"
+            alt="A screenshot of the Django Girls Blog Project homepage" class="rounded d-block border border-dark"
+            width="200px" height="200px">
+        </a>
+        <div class="modal fade" tabindex="-1" id="proj-2">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header bg-danger-subtle">
+                <h5 class="modal-title">Project 2: Django-Based Blog</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  Another project I worked on was a simple blog based on the Django
+                  framework. The blog was created following a tutorial by
+                  <a href="https://tutorial.djangogirls.org/">Django Girls</a>. Django is
+                  a web framework based off of Python, which is an alternative to the
+                  JavaScript-based frameworks that are commonly in use, including Node.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <small>
+                  Github repo:
+                  <a href="https://github.com/awong-pdx/my-first-blog">https://github.com/awong-pdx/my-first-blog</a>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center my-2">
+        <img src="" alt="" class="rounded mx-auto d-block" width="200px" height="200px">
+      </div>
+      <div class="col d-flex justify-content-center my-2">
+        <img src="" alt="" class="rounded mx-auto d-block" width="200px" height="200px">
+      </div>
+
+    </div>
+    <div class="row my-3">
+    </div>
+  </div>
+</div>
+<!-- <div class="d-flex justify-content-center">
+  <div class="mx-5 d-flex flex-wrap justify-content-evenly w-50">
+    <img src="" alt="" class="rounded" width="200px" height="200px">
+    <img src="" alt="" class="rounded" width="200px" height="200px">
+    <img src="" alt="" class="rounded" width="200px" height="200px">
+    <img src="" alt="" class="rounded" width="200px" height="200px">
+  </div>
+</div> -->
+<!-- <div class="mx-2"> -->
+<!-- <h2>Project 1: Instant Messaging App</h2>
   <p>
     My first hands-on introduction to the development process was a web-based messaging app for PSU's Elements of Software Engineering class in 2021. The goal of the project was to have a working browser-based chat system which could facilitate communication between at least two logged-in users, implemented using the MERN stack (MongoDB, Express, React, and Node). By the end of the quarter, I had a pretty rough working example of the app, with the ability to demonstrate messaging across two instances. However, along with many other features, the user functionality was never implemented, despite there being a user creation form.
   </p>
@@ -31,6 +128,6 @@ Projects
     <a href="https://github.com/awong-pdx/my-first-blog"
       >https://github.com/awong-pdx/my-first-blog</a
     >
-  </small>
-</div>
+  </small> -->
+<!-- </div> -->
 {% endblock %}
