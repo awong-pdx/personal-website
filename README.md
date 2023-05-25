@@ -19,7 +19,7 @@ Before you begin, you might want to create a new virtual environment for this pr
 ### Install Requirements
 
 `pip install --upgrade pip`
-`pip install -r requirements`
+`pip install -r requirements.txt`
 
 ### Migrate
 
