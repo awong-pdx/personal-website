@@ -8,13 +8,12 @@ Projects
 </div>
 <div class="d-flex justify-content-center">
   <div class="mx-5 w-75">
-    <!-- should be adjusted to row-cols-xl-4 when adding another project -->
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-2 my-3">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 my-3">
       <div class="col d-flex justify-content-center my-2">
         <a href="#" data-bs-toggle="modal" data-bs-target="#proj-1" class="">
           {% load static %}
           <img src="{% static 'website/chat_app_thumbnail.jpg' %}"
-            alt="A screenshot of the Chat App Project Github readme" class="rounded d-block border border-dark"
+            alt="A screenshot of the Chat App Project GitHub readme" class="rounded d-block border border-dark"
             width="200px" height="200px">
         </a>
         <div class="modal fade" tabindex="-1" id="proj-1">
@@ -33,7 +32,10 @@ Projects
                   system which could facilitate communication between at least two logged-in users, implemented using
                   the
                   MERN
-                  stack (MongoDB, Express, React, and Node). By the end of the quarter, I had a pretty rough working
+                  stack (MongoDB, Express, React, and Node).
+                </p> 
+                <p>
+                  By the end of the quarter, I had a pretty rough working
                   example
                   of the app, with the ability to demonstrate messaging across two instances. However, along with many
                   other
@@ -42,7 +44,7 @@ Projects
               </div>
               <div class="modal-footer">
                 <small>
-                  Github repo:
+                  GitHub repo:
                   <a
                     href="https://github.com/awong-pdx/CS300/tree/main/instant-messaging-app">https://github.com/awong-pdx/CS300/tree/main/instant-messaging-app</a>
                 </small>
@@ -76,7 +78,7 @@ Projects
               </div>
               <div class="modal-footer">
                 <small>
-                  Github repo:
+                  GitHub repo:
                   <a href="https://github.com/awong-pdx/my-first-blog">https://github.com/awong-pdx/my-first-blog</a>
                 </small>
               </div>
@@ -84,13 +86,88 @@ Projects
           </div>
         </div>
       </div>
-      <div class="col d-flex justify-content-center my-2 d-none">
-        <img src="" alt="" class="rounded mx-auto d-block" width="200px" height="200px">
+      <div class="col d-flex justify-content-center my-2">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#proj-3" class="">
+          {% load static %}
+          <img src="{% static 'website/weather_app_thumbnail.jpg' %}"
+            alt="A screenshot of the React Weather Dashboard" class="rounded d-block border border-dark"
+            width="200px" height="200px">
+        </a>
+        <div class="modal fade" tabindex="-1" id="proj-3">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header bg-danger-subtle">
+                <h5 class="modal-title">Project 3: React Weather Dashboard</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  App link: <a href="https://awong-pdx.github.io/frontend-weather-dashboard">https://awong-pdx.github.io/frontend-weather-dashboard</a>
+                </p>
+                <p>
+                  The weather dashboard was a final project for Front End Web Technologies, where my partner and I were tasked with creating
+                  a dashboard application using React. This was my first major experience with React, and I loved learning the intricacies and 
+                  features which make React such a popular framework, as well as comparing my previous experience with Django.
+                </p>
+                <p>
+                  For a six-week project, I was really happy with the way the application turned out! I learned so much in such a short amount of time,
+                  and improved on several skills, including Git/GitHub collaboration, wireframing, React, UI design, and overall front-end development.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <small>
+                  GitHub repo:
+                  <a
+                    href="https://github.com/awong-pdx/frontend-weather-dashboard">https://github.com/awong-pdx/frontend-weather-dashboard</a>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col d-flex justify-content-center my-2 d-none">
-        <img src="" alt="" class="rounded mx-auto d-block" width="200px" height="200px">
+      <div class="col d-flex justify-content-center my-2">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#proj-4" class="">
+          {% load static %}
+          <img src="{% static 'website/capstone_project_thumbnail.jpeg' %}"
+            alt="A screenshot of the Capstone Project Final Presentation" class="rounded d-block border border-dark"
+            width="200px" height="200px">
+        </a>
+        <div class="modal fade" tabindex="-1" id="proj-4">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header bg-danger-subtle">
+                <h5 class="modal-title">Project 4: Senior Capstone BikePed Portal UI</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <p>
+                  As part of Portland State University's Senior Capstone program, which pairs students with a professional sponsor, 
+                  I worked within a team of eight students on a project for PSU's Transportation and Research Center.
+                  The purpose was to create a UI to interact with metadata pertaining to various data 
+                  collected by transportation agencies using the BikePed system.
+                  </p>
+                <p>
+                  The team started off with a project proposal and worked through the development process, which included wireframing, planning
+                  use cases, integrating the existing backend with a newly-designed UI, and conducting testing, through constant iteration using
+                  Agile development.
+                </p>
+                <p>
+                  Some of my individual responsibilities were researching different wireframe products, introducing those products to the rest of
+                  the development team, designing the UI with the completed wireframes, and translating some of those designs to working web pages
+                  using the Django framework and Python, HTML, CSS, and JavaScript.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <small>
+                  Final Presentation Link:
+                  <a
+                    href="https://www.youtube.com/watch?v=BmgWcLumkJk">https://www.youtube.com/watch?v=BmgWcLumkJk</a>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
     </div>
   </div>
 </div>
